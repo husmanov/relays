@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Task" max_length="40" name="x_748772_relays_tasks" sizeclass="0" type="collection">
-        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element label="Destination address" max_length="400" name="destination_address" type="string"/>
-        <element label="Destination arrival" max_length="40" name="destination_arrival" type="glide_date_time"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name,ref_ac_order_by=name,ref_ac_columns_search=true, is_searchable_choice=true, max_ref_dropdown=500, ref_auto_completer=AJAXReferenceChoice" choice="1" dependent="destination_state" dependent_on_field="destination_state" label="Destination city" max_length="40" name="destination_city" reference="x_748772_relays_cities" type="reference" use_dependent_field="true">
+    <element label="Tasks" max_length="40" name="x_748772_relays_tasks" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="is_searchable_choice=true,max_ref_dropdown=5000,ref_auto_completer=AJAXReferenceChoice" choice="1" dependent="origin_state" dependent_on_field="origin_state" label="Origin City" max_length="32" name="origin_city" reference="x_748772_relays_cities" type="reference" use_dependent_field="true">
             <choice/>
         </element>
-        <element label="Destination departure" max_length="40" name="destination_departure" type="glide_date_time"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name,ref_ac_order_by=name,ref_ac_columns_search=true, is_searchable_choice=true, max_ref_dropdown=500, ref_auto_completer=AJAXReferenceChoice" choice="1" label="Destination state" max_length="40" name="destination_state" reference="x_748772_relays_states" type="reference">
+        <element attributes="is_searchable_choice=true,max_ref_dropdown=500,ref_auto_completer=AJAXReferenceChoice" choice="1" label="Origin State" max_length="32" name="origin_state" reference="x_748772_relays_states" type="reference">
             <choice/>
         </element>
-        <element choice="1" label="Load" mandatory="true" max_length="40" name="load" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Trailer preloaded" sequence="0" value="trailer_preloaded"/>
-                <element inactive_on_update="false" label="Trailer load" sequence="1" value="trailer _oad"/>
-                <element inactive_on_update="false" label="Double deck car" sequence="2" value="double_deck_car"/>
-            </choice>
-        </element>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element label="Origin address" max_length="400" name="origin_address" type="string"/>
-        <element label="Origin arrival" max_length="40" name="origin_arrival" type="glide_date_time"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name,ref_ac_order_by=name,ref_ac_columns_search=true, is_searchable_choice=true, max_ref_dropdown=500, ref_auto_completer=AJAXReferenceChoice" choice="1" dependent="origin_state" dependent_on_field="origin_state" label="Origin city" max_length="40" name="origin_city" reference="x_748772_relays_cities" reference_key="name" type="reference" use_dependent_field="true">
-            <choice/>
-        </element>
-        <element label="Origin departure" max_length="40" name="origin_departure" type="glide_date_time"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=name,ref_ac_order_by=name,ref_ac_columns_search=true, is_searchable_choice=true, max_ref_dropdown=500, ref_auto_completer=AJAXReferenceChoice" choice="1" label="Origin state" max_length="40" name="origin_state" reference="x_748772_relays_states" type="reference">
-            <choice/>
-        </element>
-        <element default="0.0" label="Price" max_length="40" name="price" type="float"/>
         <index name="index">
-            <element name="assigned_to"/>
+            <element name="origin_city"/>
+        </index>
+        <index name="index2">
+            <element name="origin_state"/>
         </index>
     </element>
 </database>

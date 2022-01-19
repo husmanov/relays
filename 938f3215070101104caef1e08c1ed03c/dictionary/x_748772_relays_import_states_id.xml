@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="States" max_length="40" name="x_748772_relays_import_states_id" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state_id" label="state_id" max_length="40" name="u_state_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state_name" label="state_name" max_length="40" name="u_state_name" type="string"/>
+    </element>
+</database>

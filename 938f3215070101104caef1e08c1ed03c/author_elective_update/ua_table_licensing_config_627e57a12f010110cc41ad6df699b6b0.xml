@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_748772_relays_stop</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-14 20:48:46</sys_created_on>
+        <sys_id>627e57a12f010110cc41ad6df699b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_748772_relays_stop</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_update_name>ua_table_licensing_config_627e57a12f010110cc41ad6df699b6b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-14 20:48:46</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Relays">938f3215070101104caef1e08c1ed03c</application>
+        <file_path/>
+        <instance_id>92f8f6cddbdb738842b321c4059619c3</instance_id>
+        <instance_name>dev91457</instance_name>
+        <name>ua_table_licensing_config_627e57a12f010110cc41ad6df699b6b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_748772_relays_stop</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-14 20:48:46</sys_created_on><sys_id>627e57a12f010110cc41ad6df699b6b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_748772_relays_stop</sys_name><sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package><sys_policy/><sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope><sys_update_name>ua_table_licensing_config_627e57a12f010110cc41ad6df699b6b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-14 20:48:46</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1771325953</payload_hash>
+        <record_name>x_748772_relays_stop</record_name>
+        <reverted_from/>
+        <source>512819112f010110cc41ad6df699b640</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-13 16:23:23</sys_created_on>
+        <sys_id>118e1ba12f010110cc41ad6df699b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e54403c780000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-19 20:23:54</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>dd8e1ba1f8010110ec94226b1ad8c773</update_guid>
+        <update_guid_history>dd8e1ba1f8010110ec94226b1ad8c773:1771325953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 20:50:29</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>263e6c3d23cc416bb965873e4db0c5e1</sys_id>
+        <sys_metadata>627e57a12f010110cc41ad6df699b6b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_748772_relays_stop</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_scope_delete display_value="">19d15504b41245a78a52946b36c2d119</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_627e57a12f010110cc41ad6df699b6b0</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_627e57a12f010110cc41ad6df699b6b0">118e1ba12f010110cc41ad6df699b674</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 20:50:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

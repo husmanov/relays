@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>States Menu</name>
+        <order/>
+        <roles>x_748772_relays.states_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 21:24:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a90d004b2f810110cc41ad6df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>States Menu</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_update_name>sys_ui_application_a90d004b2f810110cc41ad6df699b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 21:24:32</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Relays">938f3215070101104caef1e08c1ed03c</application>
+        <file_path/>
+        <instance_id>92f8f6cddbdb738842b321c4059619c3</instance_id>
+        <instance_name>dev91457</instance_name>
+        <name>sys_ui_application_a90d004b2f810110cc41ad6df699b63d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>States Menu</name><order/><roles>x_748772_relays.states_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-18 21:24:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a90d004b2f810110cc41ad6df699b63d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>States Menu</sys_name><sys_overrides/><sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package><sys_policy/><sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope><sys_update_name>sys_ui_application_a90d004b2f810110cc41ad6df699b63d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-18 21:24:32</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>879432809</payload_hash>
+        <record_name>States Menu</record_name>
+        <reverted_from/>
+        <source>d8be1fa12f010110cc41ad6df699b6bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 21:24:32</sys_created_on>
+        <sys_id>e50d004b2f810110cc41ad6df699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e6f13c02b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 21:24:32</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>210d004bfe8101105a2293e7c035f73f</update_guid>
+        <update_guid_history>210d004bfe8101105a2293e7c035f73f:879432809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 21:43:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>35cb4616880145879d4d0ce7e00c4719</sys_id>
+        <sys_metadata>a90d004b2f810110cc41ad6df699b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>States Menu</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_scope_delete display_value="">19d15504b41245a78a52946b36c2d119</sys_scope_delete>
+        <sys_update_name>sys_ui_application_a90d004b2f810110cc41ad6df699b63d</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_a90d004b2f810110cc41ad6df699b63d">e50d004b2f810110cc41ad6df699b63f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 21:43:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

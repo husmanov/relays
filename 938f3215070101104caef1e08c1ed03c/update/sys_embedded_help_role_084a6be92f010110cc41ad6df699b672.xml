@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_748772_relays.stateandcity_user" name="x_748772_relays.stateandcity_user">373a6be52f010110cc41ad6df699b6b1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-14 21:40:12</sys_created_on>
+        <sys_id>084a6be92f010110cc41ad6df699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>373a6be52f010110cc41ad6df699b6b1</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_084a6be92f010110cc41ad6df699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-14 21:40:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

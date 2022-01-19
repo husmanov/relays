@@ -23,7 +23,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-18 20:39:33</sys_created_on>
+        <sys_created_on>2022-01-18 20:24:06</sys_created_on>
         <sys_id>8bf14847070101104caef1e08c1ed03c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cities</sys_name>
@@ -32,9 +32,9 @@
         <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
         <sys_update_name>sys_db_object_8bf14847070101104caef1e08c1ed03c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-18 20:39:33</sys_updated_on>
+        <sys_updated_on>2022-01-18 20:24:06</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_748772_relays.cities_user" name="x_748772_relays.cities_user">2ab28847070101104caef1e08c1ed055</user_role>
+        <user_role display_value="x_748772_relays.cities_user" name="x_748772_relays.cities_user">63f1fb612f410110cc41ad6df699b6d8</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

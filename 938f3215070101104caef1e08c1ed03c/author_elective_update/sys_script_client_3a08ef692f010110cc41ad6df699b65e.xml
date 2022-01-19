@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Change city choices by state</description>
+        <field>city</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>City by State</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-14 21:31:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a08ef692f010110cc41ad6df699b65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City by State</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_update_name>sys_script_client_3a08ef692f010110cc41ad6df699b65e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-14 21:31:41</sys_updated_on>
+        <table>x_748772_relays_stop</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Relays">938f3215070101104caef1e08c1ed03c</application>
+        <file_path/>
+        <instance_id>92f8f6cddbdb738842b321c4059619c3</instance_id>
+        <instance_name>dev91457</instance_name>
+        <name>sys_script_client_3a08ef692f010110cc41ad6df699b65e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Change city choices by state&lt;/description&gt;&lt;field&gt;city&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;City by State&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-14 21:31:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3a08ef692f010110cc41ad6df699b65e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;City by State&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Relays" source="x_748772_relays"&gt;938f3215070101104caef1e08c1ed03c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Relays"&gt;938f3215070101104caef1e08c1ed03c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3a08ef692f010110cc41ad6df699b65e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-14 21:31:41&lt;/sys_updated_on&gt;&lt;table&gt;x_748772_relays_stop&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2125701897</payload_hash>
+        <record_name>City by State</record_name>
+        <reverted_from/>
+        <source>d8be1fa12f010110cc41ad6df699b6bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-14 21:31:41</sys_created_on>
+        <sys_id>1748a3a92f010110cc41ad6df699b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e5a80dbc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-14 21:31:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5f48a3a95c010110e3d4ccfe59af9a21</update_guid>
+        <update_guid_history>5f48a3a95c010110e3d4ccfe59af9a21:2125701897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 20:43:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1162a9ff036a40f29d3d9a87f9f70f99</sys_id>
+        <sys_metadata>3a08ef692f010110cc41ad6df699b65e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City by State</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_parent display_value="">6e7e57a12f010110cc41ad6df699b691</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_scope_delete display_value="">19d15504b41245a78a52946b36c2d119</sys_scope_delete>
+        <sys_update_name>sys_script_client_3a08ef692f010110cc41ad6df699b65e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3a08ef692f010110cc41ad6df699b65e">1748a3a92f010110cc41ad6df699b622</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 20:43:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

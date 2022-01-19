@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="States" max_length="40" name="x_748772_relays_states" sizeclass="52" type="collection">
-        <element display="true" label="Full name" max_length="40" name="full_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element display="true" label="State ID" max_length="40" name="state_id" type="string"/>
+        <element label="State Name" max_length="40" name="state_name" type="string"/>
     </element>
 </database>
