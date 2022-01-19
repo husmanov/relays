@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cities" max_length="40" name="x_748772_relays_cities" sizeclass="28338" type="collection">
+        <element label="Density" max_length="40" name="density" type="integer"/>
+        <element label="latitude" max_length="40" name="latitude" type="string"/>
+        <element label="longitude" max_length="40" name="longitude" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="Population" max_length="40" name="population" type="integer"/>
+        <element label="state" max_length="32" name="state" reference="x_748772_relays_states" type="reference"/>
+        <index name="index">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

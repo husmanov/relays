@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_748772_relays_tasks</description>
+        <name>x_748772_relays_tasks</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-14 00:02:24</sys_created_on>
+        <sys_id>a931c395070101104caef1e08c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_748772_relays_tasks</sys_name>
+        <sys_package display_value="Relays" source="x_748772_relays">938f3215070101104caef1e08c1ed03c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Relays">938f3215070101104caef1e08c1ed03c</sys_scope>
+        <sys_update_name>sys_security_acl_a931c395070101104caef1e08c1ed01c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-14 00:02:24</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
